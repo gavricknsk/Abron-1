@@ -21,7 +21,7 @@ public class MyServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
 
-        String varTextA = "Hello World!";
+        String varTextA = "Helljhjhjo World!";
         request.setAttribute("textA", varTextA);
         String varTextB = "It JSP. Testing buld on commit!!!";
         request.setAttribute("textB", varTextB);
