@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/s")
 public class MyServlet extends HttpServlet {
 
     @Override
